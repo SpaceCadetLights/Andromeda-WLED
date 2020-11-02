@@ -1,0 +1,65 @@
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  background: rgb(94, 94, 94);
+  color: #fff;
+  line-height: 200%;
+  margin: 0;
+  text-shadow: 0px 1px 4px #272727;
+}
+hr {
+  border-color: #666;
+}
+button {
+  background: #333;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  border: 0.2ch solid #333;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 23px;
+  margin: 15px;
+  margin-top: 12px;
+}
+.buttongreen {
+  background: rgb(20, 170, 0);
+}
+
+button.disabled, button[disabled] {
+  color: #aaa;
+}
+.helpB {
+  text-align: left;
+  position: absolute;
+  width: 60px;
+}
+input {
+  background: #333;
+  color: #fff;
+  border:0.2ch solid #333;
+  border-radius: 8px;
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  border: 0.5ch solid #333;
+  box-shadow: 0px 2px 7px rgb(59, 59, 59);
+  margin: 5px;
+}
+.largeinput {
+  font-size: 20px;
+}
+
+input[type="number"] {
+  width: 4em;
+}
+select {
+  background: #333;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  border: 0.5ch solid #333;
+}
+td {
+  padding: 2px;
+}
+.d5 {
+  width: 4.5em !important;
+}
